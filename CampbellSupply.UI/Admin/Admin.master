@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CampbellSupply.Admin.Admin" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Campbell's Supply</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="all" />
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/red.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/css/owl.transitions.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link href="../assets/css/main.css" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css' />
+
+    <!-- Icons/Glyphs -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bodybg">
+
+    <div class="wrapper">
+
+        <!-- WAIT CONTAINER -->
+        <div id="a_wait_container" class="wait-container" runat="server">
+            <img src="assets/images/AjaxLoader.gif" />
+        </div>
+
+
+        <!-- TOP NAVIGATION -->
+        <nav class="top-bar animate-dropdown">
+            <div class="container">
+
+                <!-- TABS -->
+                <div class="col-xs-12 col-sm-6 no-margin">
+                    <ul>
+                        <li><a href="../Home.aspx">Home</a></li>
+                        <li><a href="../About.aspx">About</a></li>
+                        <li><a href="../FAQ.aspx">FAQ</a></li>
+                        <li><a href="../Contact.aspx">Contact</a></li>
+                        <li><a href="#">Weekly Ad</a></li>
+                    </ul>
+                </div>
+
+                <!-- LOGIN -->
+                <div id="divLogin" class="col-xs-12 col-sm-6 no-margin" runat="server">
+                    <ul class="right">
+                        <li><a href="/Login.aspx">Login</a></li>
+                    </ul>
+                </div>
+
+                <!-- LOGOUT -->
+                <div id="divLogout" class="col-xs-12 col-sm-6 no-margin" runat="server">
+                    <ul class="right">
+                        <li><a href="../UserHome.aspx">
+                            <asp:Label ID="lblName" runat="server" /></a></li>
+                        <li>
+                            <asp:Label ID="lblUser" runat="server"><a href="../Logout.aspx">Logout</a></asp:Label></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <header>
+            <div class="container no-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!-- LOGO -->
+                    <div class="col-xs-12 col-sm-12">
+                        <a href="AdminHome">
+                            <img alt="logo" src="assets/images/logo.png" width="233" height="54" />
+                        </a><b class="centerText text-danger pull-right">Administration Login</b>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- BREADCRUMB -->
+        <div class="animate-dropdown">
+            <span id="menu" runat="server">
+                <div id="top-mega-nav">
+                    <div class="container">
+                        <nav>
+                            <ul class="inline">
+                                <li class="dropdown le-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fa fa-list"></i>Admin Tools
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="AdminEditPage.aspx">Edit Pages</a></li>
+                                        <li><a href="AdminProducts.aspx">View Products</a></li>
+                                        <li><a href="AdminUploads.aspx">Uploads</a></li>
+                                        <li><a href="AdminOrders.aspx">Order History</a></li>
+                                        <li><a href="AdminReviews.aspx">Manage Reviews</a></li>
+                                        <li><a href="AdminCoupons.aspx">Manage Coupons</a></li>
+                                        <li><a href="AdminWeeklyAd.aspx">Weekly Ad</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="breadcrumb-nav-holder">
+                                    <ul id="defaultNav" runat="server">
+                                        <li class="breadcrumb-item">
+                                            <a href="../Home.aspx" target="_blank">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item current gray">
+                                            <a href="../About.aspx" target="_blank">About</a>
+                                        </li>
+                                        <li class="breadcrumb-item current gray">
+                                            <a href="../FAQ.aspx" target="_blank">FAQ</a>
+                                        </li>
+                                        <li class="breadcrumb-item current gray">
+                                            <a href="../Contact.aspx" target="_blank">Contact</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </span>
+        </div>
+
+        <!-- MAIN CONTENT PLACE HOLDER -->
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="Main" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScripts placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+    <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/css_browser_selector.min.js"></script>
+    <script src="assets/js/echo.min.js"></script>
+    <script src="assets/js/jquery.easing-1.3.min.js"></script>
+    <script src="assets/js/bootstrap-slider.min.js"></script>
+    <script src="assets/js/jquery.raty.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.min.js"></script>
+    <script src="assets/js/jquery.customSelect.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

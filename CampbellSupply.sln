@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.Data", "CampbellSupply.Data\CampbellSupply.Data.csproj", "{21F22A7F-2449-4D02-8489-20C70B3B4C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.Common", "CampbellSupply.Common\CampbellSupply.Common.csproj", "{8C2C3DE7-DF5A-4337-B9A4-20E4BE83DB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.Services", "CampbellSupply.Services\CampbellSupply.Services.csproj", "{B6C89679-62B5-456C-A53E-DB53F8CD5FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.WebJob.Nightly", "CampbellSupply.WebJob.Nightly\CampbellSupply.WebJob.Nightly.csproj", "{C51790CF-EAC5-42A1-AB5E-00B09AAA7787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.WebJob.Upload", "CampbellSupply.WebJob.Upload\CampbellSupply.WebJob.Upload.csproj", "{C84DCB2C-FFDB-48A2-9F14-9B291E6A2096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampbellSupply.UI", "CampbellSupply.UI\CampbellSupply.UI.csproj", "{859DC7E0-50E7-41B5-8AD4-4D217C51BD8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{087430A0-000D-4964-B427-11D2CDFFBF6B}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Info.txt = Documents\Info.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F22A7F-2449-4D02-8489-20C70B3B4C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F22A7F-2449-4D02-8489-20C70B3B4C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F22A7F-2449-4D02-8489-20C70B3B4C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F22A7F-2449-4D02-8489-20C70B3B4C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2C3DE7-DF5A-4337-B9A4-20E4BE83DB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2C3DE7-DF5A-4337-B9A4-20E4BE83DB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2C3DE7-DF5A-4337-B9A4-20E4BE83DB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2C3DE7-DF5A-4337-B9A4-20E4BE83DB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C89679-62B5-456C-A53E-DB53F8CD5FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C89679-62B5-456C-A53E-DB53F8CD5FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C89679-62B5-456C-A53E-DB53F8CD5FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C89679-62B5-456C-A53E-DB53F8CD5FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51790CF-EAC5-42A1-AB5E-00B09AAA7787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51790CF-EAC5-42A1-AB5E-00B09AAA7787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51790CF-EAC5-42A1-AB5E-00B09AAA7787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51790CF-EAC5-42A1-AB5E-00B09AAA7787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84DCB2C-FFDB-48A2-9F14-9B291E6A2096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84DCB2C-FFDB-48A2-9F14-9B291E6A2096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84DCB2C-FFDB-48A2-9F14-9B291E6A2096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84DCB2C-FFDB-48A2-9F14-9B291E6A2096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859DC7E0-50E7-41B5-8AD4-4D217C51BD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859DC7E0-50E7-41B5-8AD4-4D217C51BD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859DC7E0-50E7-41B5-8AD4-4D217C51BD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859DC7E0-50E7-41B5-8AD4-4D217C51BD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F7F9BA-2473-4018-8958-C6C429FD61AA}
+	EndGlobalSection
+EndGlobal

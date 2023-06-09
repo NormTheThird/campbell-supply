@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="78fa07a18d104504a42d70ac7b3ffc55" Name="Diagram1">
+        <EntityTypeShape EntityType="CampbellSupplyModel.Account" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Address" Width="1.5" PointX="0.75" PointY="25.25" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Category" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Coupon" Width="1.5" PointX="0.75" PointY="21.375" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Department" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Error" Width="1.5" PointX="7.75" PointY="3.125" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Manufacturer" Width="1.5" PointX="0.75" PointY="18" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Order" Width="1.5" PointX="3" PointY="22.125" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.OrderItem" Width="1.5" PointX="5.25" PointY="14.625" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.PageContent" Width="1.5" PointX="7.75" PointY="7.125" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.PasswordReset" Width="1.5" PointX="5.25" PointY="3.125" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.Product" Width="1.5" PointX="3" PointY="6.625" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.ProductViewHistory" Width="1.5" PointX="5.25" PointY="24.75" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.RatedReviewed" Width="1.5" PointX="5.25" PointY="6.375" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.ShoppingCart" Width="1.5" PointX="5.25" PointY="10.75" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.SubCategory" Width="1.5" PointX="0.75" PointY="7.625" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.WeeklyAd" Width="1.5" PointX="9.75" PointY="3.125" />
+        <EntityTypeShape EntityType="CampbellSupplyModel.WishList" Width="1.5" PointX="8.25" PointY="10.875" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Order_Account" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_PasswordReset_Account" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_RatedReviewed_Account" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_ShoppingCart_Account" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_WishList_Account" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Order_BillingAddress" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Order_ShippingAddress" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Product_Category" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Order_Coupon" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Product_Department" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Product_Manufacturer" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_OrderItem_Order" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_OrderItem_Product" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_Product_SubCategory" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_ProductViewHistory_Product" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_RatedReviewed_Product" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_ShoppingCart_Product" />
+        <AssociationConnector Association="CampbellSupplyModel.FK_WishList_Product" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

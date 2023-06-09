@@ -1,0 +1,17 @@
+﻿# git ignore file
+
+/.vs
+/packages
+
+/CampbellSupply.Common/bin
+/CampbellSupply.Common/obj
+/CampbellSupply.Data/bin
+/CampbellSupply.Data/obj
+/CampbellSupply.Services/bin
+/CampbellSupply.Services/obj
+/CampbellSupply.UI/bin
+/CampbellSupply.UI/obj
+/CampbellSupply.WebJob.Nightly/bin
+/CampbellSupply.WebJob.Nightly/obj
+/CampbellSupply.WebJob.Upload/bin
+/CampbellSupply.WebJob.Upload/obj

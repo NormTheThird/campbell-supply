@@ -1,0 +1,20 @@
+Amazon Server 
+http://ec2-54-218-242-123.us-west-2.compute.amazonaws.com/
+
+login: administrator
+password: wZJHNgm2Sd
+
+Make sure IP is whitelisted in AWS.
+
+
+urls to convert url to pdf
+
+Order print out to admin
+http://ec2-54-218-242-123.us-west-2.compute.amazonaws.com/pdf/urltopdf?url=http://CampbellSupply.net/OrderPrintOut.aspx?OrderNumber=H2CWBLURCT
+
+Receipt print out to customer
+http://ec2-54-218-242-123.us-west-2.compute.amazonaws.com/pdf/urltopdf?url=http://CampbellSupply.net/EmailReceipt.aspx?OrderNumber=H2CWBLURCT
+
+
+
+SendGrid Login Info: In Last Pass
